@@ -135,7 +135,7 @@
 					<div class="row with-forms">
 						<!-- Cities -->
 						<div class="col-md-12">
-							<input name="onde" type="text" placeholder="What are you looking for?" value=""/>
+							<input name="date_search" type="date" placeholder="Quando voce quer ir ?" value=""/>
 						</div>
 					</div>
 					<!-- Row / End -->
@@ -145,13 +145,13 @@
 					<div class="row with-forms">
 						<!-- Type -->
 						<div class="col-md-12">
-							<select data-placeholder="All Categories" class="chosen-select" >
-								<option>All Categories</option>	
-								<option>Shops</option>
-								<option>Hotels</option>
-								<option>Restaurants</option>
-								<option>Fitness</option>
-								<option>Events</option>
+							<select data-placeholder="All Categories" class="chosen-select" name="category_list">
+								<option>Todas as categorias</option>	
+								<option>Trilha</option>
+								<option>Mergulho</option>
+								<option>Passseio de Barco</option>
+								<option>Ecoturismo</option>
+								<option>Surf</option>
 							</select>
 						</div>
 					</div>
@@ -165,7 +165,7 @@
 
 							<div class="input-with-icon location">
 								<div id="autocomplete-container">
-									<input id="autocomplete-input" type="text" placeholder="Location">
+									<input id="autocomplete-input" type="text" placeholder="Onde voce quer ir?" name="location_search">
 								</div>
 								<a href="#"><i class="fa fa-map-marker"></i></a>
 							</div>

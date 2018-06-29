@@ -39,7 +39,7 @@ class DestinationsController extends Controller
 
     }
 
-    public function store(){
+    public function show_list(){
 
         //dd(request()->all());
         //dd(request()->onde);

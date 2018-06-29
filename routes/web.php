@@ -40,7 +40,7 @@ Route::get('/destination/add', 'DestinationsController@register');
 
 // Destinations - Grid
 //Route::get('/list/destinations/type/{type}/place/{place}/date/{date}', 'DestinationsController@index');
-Route::post('/list', 'DestinationsController@store');
+Route::post('/list', 'DestinationsController@show_list');
 Route::get('/list', 'DestinationsController@index');
 Route::get('/list/{id}', 'DestinationsController@show');
 
